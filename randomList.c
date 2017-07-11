@@ -76,6 +76,8 @@ void printList(node *head)
           // Print a new line if we're done.
           printf("%d%c", head->data, (head->next == NULL) ? '\n' : ' ');
         }
+    
+       return;
     }
 
   return;
